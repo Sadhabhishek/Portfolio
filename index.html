@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhishek Sadh | Web Designer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+      backdrop-filter: blur(8px);
+    }
+    h1 {
+      font-size: 3rem;
+      color: #00ffe7;
+    }
+    h2 {
+      margin-top: 30px;
+      color: #ffc107;
+      border-bottom: 2px solid #00ffe7;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    p, li {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background-color: #00ffe7;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #00c7b0;
+    }
+    .project {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+    form {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+    }
+    button {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #00ffe7;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #00c7b0;
+    }
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Abhishek Sadh</h1>
+    <p><em>Professional Web Designer | Clean UI/UX | Responsive Design Specialist</em></p>
+
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate and creative web designer with a strong eye for detail and love for clean, functional design. I specialize in building fast, responsive, and attractive websites for businesses, startups, and personal brands.
+    </p>
+
+    <h2>What I Do</h2>
+    <ul>
+      <li>● Custom Portfolio Websites</li>
+      <li>● Business & Startup Landing Pages</li>
+      <li>● Blog Design & Personal Sites</li>
+      <li>● Full Responsive Design & UI Polish</li>
+    </ul>
+
+    <a href="https://www.fiverr.com/abhisheksadh" target="_blank" class="btn">Visit My Fiverr Profile</a>
+
+    <h2>Featured Projects</h2>
+
+    <div class="project">
+      <h3>Modern Portfolio Website for Designer</h3>
+      <p>
+        Built a clean, fully responsive personal portfolio for a creative graphic designer with smooth scroll, dark/light toggle, and animated sections.
+      </p>
+      <strong>Tools:</strong> HTML, CSS, JavaScript, GSAP
+    </div>
+
+    <div class="project">
+      <h3>Restaurant Website with Online Booking</h3>
+      <p>
+        Created a vibrant website for a local restaurant with integrated table booking form, food gallery, and responsive menu layout. SEO optimized.
+      </p>
+      <strong>Tools:</strong> HTML, CSS, Bootstrap, JavaScript
+    </div>
+
+    <div class="project">
+      <h3>E-commerce Product Landing Page</h3>
+      <p>
+        Designed an eye-catching landing page for a new product launch focused on clean visuals, mobile-friendliness, and call-to-action optimization.
+      </p>
+      <strong>Tools:</strong> HTML, Tailwind CSS
+    </div>
+
+    <div class="project">
+      <h3>Tech Blog Website with Dark Mode</h3>
+      <p>
+        Developed a responsive tech blog website with toggleable dark mode, featured post cards, and author profile section.
+      </p>
+      <strong>Tools:</strong> HTML, CSS, JavaScript
+    </div>
+
+    <div class="project">
+      <h3>Startup Website UI Design</h3>
+      <p>
+        Delivered a sleek and modern layout for a SaaS startup, including pricing section, testimonials, and contact form.
+      </p>
+      <strong>Tools:</strong> HTML, CSS, Figma
+    </div>
+
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xqkrpzeq" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="footer">
+      &copy; 2025 Abhishek Sadh | Email: abhishek.websolutions7@gmail.com
+    </div>
+  </div>
+</body>
+</html>
